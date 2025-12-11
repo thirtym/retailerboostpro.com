@@ -23,6 +23,24 @@
       }
     }
   </style>
+  <script>
+    // Override Alpha alert text after React hydration
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(function() {
+        var alertText = document.querySelector('.AlphaAlert_alertText__szN_k');
+        if (alertText && alertText.textContent.includes('Alpha is')) {
+          alertText.textContent = 'Now open for Shopify merchants in the USA';
+        }
+      }, 100);
+    });
+    // Also check after a delay for React hydration
+    setTimeout(function() {
+      var alertText = document.querySelector('.AlphaAlert_alertText__szN_k');
+      if (alertText && alertText.textContent.includes('Alpha is')) {
+        alertText.textContent = 'Now open for Shopify merchants in the USA';
+      }
+    }, 1000);
+  </script>
 </head>
   <body>
     <div hidden=""><!--$--><!--/$--></div>
