@@ -172,7 +172,7 @@
             </div>
           </div>
           
-          <p style="text-align:center;color:#aaa;font-size:0.95rem;margin-bottom:2rem;"><strong style="color:#fff;">Requirements:</strong> Active Google Merchant Centre account in good standing with product feed properly linked. Your existing campaigns stay completely untouched.</p>
+          <p style="text-align:center;color:#aaa;font-size:0.95rem;margin-bottom:2rem;"><strong style="color:#fff;">Requirements:</strong> Active Google Merchant Centre account in good standing with product feed properly linked. Your existing campaigns stay completely untouched. <a href="#" onclick="document.getElementById('eligibility-modal').style.display='flex';return false;" style="color:#00d9a3;text-decoration:underline;">View full eligibility criteria →</a></p>
           
           <div style="display:flex;gap:1rem;justify-content:center;align-items:center;flex-wrap:wrap;">
             <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/sturrock/intro'});return false;" style="display:inline-block;padding:1rem 2.5rem;background:linear-gradient(135deg, #00d9a3, #00b386);color:#000;text-decoration:none;font-size:1.1rem;font-weight:700;border-radius:8px;transition:all .3s ease;">Book a Call</a>
@@ -882,6 +882,89 @@
         </div>
       </section>
     </main>
+    
+    <!-- Eligibility Modal -->
+    <div id="eligibility-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.85);z-index:9999;justify-content:center;align-items:center;padding:1rem;overflow-y:auto;" onclick="if(event.target===this)this.style.display='none'">
+      <div style="background:#111;border:1px solid rgba(0,217,163,0.3);border-radius:16px;max-width:700px;width:100%;max-height:90vh;overflow-y:auto;position:relative;">
+        <button onclick="document.getElementById('eligibility-modal').style.display='none'" style="position:absolute;top:1rem;right:1rem;background:none;border:none;color:#aaa;font-size:1.5rem;cursor:pointer;padding:0.5rem;line-height:1;">&times;</button>
+        
+        <div style="padding:2.5rem;">
+          <h2 style="font-size:1.75rem;font-weight:700;color:#fff;margin-bottom:1rem;text-align:center;">Investment Criteria</h2>
+          <p style="color:#e5e5e5;line-height:1.7;margin-bottom:2rem;text-align:center;">We invest in real, established stores with a proven track record. Trial stores or stores with no sales history are high risk and do not qualify for our capital investment.</p>
+          
+          <p style="color:#fff;font-weight:600;margin-bottom:1.5rem;">To qualify for our advertising investment, your store must meet the following criteria:</p>
+          
+          <ul style="list-style:none;padding:0;margin:0 0 2rem;">
+            <li style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:1rem;color:#e5e5e5;line-height:1.6;">
+              <span style="color:#00d9a3;font-size:1.1rem;">✓</span>
+              <span><strong style="color:#fff;">Google Merchant Centre in good standing</strong> - Your account must not be suspended or under review</span>
+            </li>
+            <li style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:1rem;color:#e5e5e5;line-height:1.6;">
+              <span style="color:#00d9a3;font-size:1.1rem;">✓</span>
+              <span><strong style="color:#fff;">Merchant Centre access granted</strong> - We need ongoing access to connect our Google Ads account</span>
+            </li>
+            <li style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:1rem;color:#e5e5e5;line-height:1.6;">
+              <span style="color:#00d9a3;font-size:1.1rem;">✓</span>
+              <span><strong style="color:#fff;">Minimum store age of 30 days</strong> - We require established stores with some trading history</span>
+            </li>
+            <li style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:1rem;color:#e5e5e5;line-height:1.6;">
+              <span style="color:#00d9a3;font-size:1.1rem;">✓</span>
+              <span><strong style="color:#fff;">Conversion history</strong> - Your store should have demonstrated some sales conversions</span>
+            </li>
+            <li style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:1rem;color:#e5e5e5;line-height:1.6;">
+              <span style="color:#00d9a3;font-size:1.1rem;">✓</span>
+              <span><strong style="color:#fff;">No trial stores</strong> - We don't invest in stores on platform trial periods</span>
+            </li>
+            <li style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:1rem;color:#e5e5e5;line-height:1.6;">
+              <span style="color:#00d9a3;font-size:1.1rem;">✓</span>
+              <span><strong style="color:#fff;">No password protected stores</strong> - Your store must be publicly accessible</span>
+            </li>
+            <li style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:1rem;color:#e5e5e5;line-height:1.6;">
+              <span style="color:#00d9a3;font-size:1.1rem;">✓</span>
+              <span><strong style="color:#fff;">Legitimate products only</strong> - No counterfeit goods, fraudulent stores, or policy-violating items</span>
+            </li>
+            <li style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:1rem;color:#e5e5e5;line-height:1.6;">
+              <span style="color:#00d9a3;font-size:1.1rem;">✓</span>
+              <span><strong style="color:#fff;">Ships to USA</strong> - Your store must offer shipping to the United States</span>
+            </li>
+            <li style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:1rem;color:#e5e5e5;line-height:1.6;">
+              <span style="color:#00d9a3;font-size:1.1rem;">✓</span>
+              <span><strong style="color:#fff;">Product feed in USD</strong> - Your product feed must be configured with USD pricing</span>
+            </li>
+            <li style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:1rem;color:#e5e5e5;line-height:1.6;">
+              <span style="color:#00d9a3;font-size:1.1rem;">✓</span>
+              <span><strong style="color:#fff;">Products in English</strong> - Your product listings must be in English</span>
+            </li>
+            <li style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:1rem;color:#e5e5e5;line-height:1.6;">
+              <span style="color:#00d9a3;font-size:1.1rem;">✓</span>
+              <span><strong style="color:#fff;">Product feed configured</strong> - Your feed must be properly set up and populated with valid products</span>
+            </li>
+            <li style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:1rem;color:#e5e5e5;line-height:1.6;">
+              <span style="color:#00d9a3;font-size:1.1rem;">✓</span>
+              <span><strong style="color:#fff;">Valid payment details</strong> - Your RetailerBoost account must have valid, up-to-date payment information</span>
+            </li>
+            <li style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:1rem;color:#e5e5e5;line-height:1.6;">
+              <span style="color:#00d9a3;font-size:1.1rem;">✓</span>
+              <span><strong style="color:#fff;">Attribution tracking installed</strong> - Our tracking script must be correctly installed and remain active</span>
+            </li>
+            <li style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:1rem;color:#e5e5e5;line-height:1.6;">
+              <span style="color:#00d9a3;font-size:1.1rem;">✓</span>
+              <span><strong style="color:#fff;">Passes internal risk assessment</strong> - Your store must meet our internal compliance and risk checks</span>
+            </li>
+          </ul>
+          
+          <p style="color:#aaa;font-size:0.9rem;line-height:1.6;margin-bottom:1.5rem;padding:1rem;background:rgba(255,255,255,0.05);border-radius:8px;"><strong style="color:#fff;">Note:</strong> Ads will not perform correctly if the language or currency do not match.</p>
+          
+          <p style="color:#e5e5e5;line-height:1.7;margin-bottom:2rem;">If your store doesn't currently meet these criteria, we'll let you know what needs to be addressed. Once the issues are resolved, we'll be happy to reassess your eligibility.</p>
+          
+          <div style="display:flex;gap:1rem;justify-content:center;align-items:center;flex-wrap:wrap;">
+            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/sturrock/intro'});return false;" style="display:inline-block;padding:1rem 2rem;background:linear-gradient(135deg, #00d9a3, #00b386);color:#000;text-decoration:none;font-size:1rem;font-weight:700;border-radius:8px;transition:all .3s ease;">Book a Call</a>
+            <a href="https://app.retailerboost.com?utm_source=retailerboostplatform-com&amp;utm_medium=website&amp;utm_campaign=eligibility-modal" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:1rem 2rem;background:transparent;color:#00d9a3;text-decoration:none;font-size:1rem;font-weight:700;border-radius:8px;border:2px solid #00d9a3;transition:all .3s ease;">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <footer style="padding:3rem 2rem 2rem;text-align:center;color:#aaa;border-top:1px solid rgba(0,217,163,0.2);margin-top:0;background:#0a0a0a;">
       <p style="margin:0;font-size:0.9rem;color:#aaa;">© 2025 RetailerBoost. All rights reserved.</p>
     </footer>
