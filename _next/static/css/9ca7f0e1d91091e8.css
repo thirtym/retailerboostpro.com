@@ -65,7 +65,7 @@
 .ComparisonTable_valueCell__PZrPF:last-child {
 }
 .ComparisonTable_checkmark__Q7pX2 {
-  color:#247CFF;
+  color:#33D0C4;
   font-size:1.25rem;
   margin-right:.5rem;
 }
@@ -851,7 +851,7 @@
 }
 .HowItWorks_modalList__IsjpO li:before {
   content:"✓";
-  color:#247CFF;
+  color:#33D0C4;
   font-size:1.1rem;
   font-weight:700;
   position:absolute;
@@ -943,7 +943,7 @@
 }
 .InvestmentCriteriaModal_modalList__nnZer li:before {
   content:"✓";
-  color:#247CFF;
+  color:#33D0C4;
   font-size:1.1rem;
   font-weight:700;
   position:absolute;
@@ -1059,7 +1059,7 @@
   justify-content:flex-start;
 }
 .PersonaCards_checkmark__3TYtA {
-  color:#247CFF;
+  color:#33D0C4;
   font-weight:700;
   font-size:1.25rem;
 }
