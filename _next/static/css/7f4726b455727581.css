@@ -113,7 +113,7 @@
 }
 .Navigation_ctaButton__jQlAz {
   background:linear-gradient(135deg, #247CFF, #1A64CC);
-  color:#000;
+  color:#fff;
   padding:.75rem 1.5rem;
   border-radius:6px;
   text-decoration:none;
@@ -163,7 +163,7 @@
 }
 .Navigation_mobileCtaButton__Netdi {
   background:linear-gradient(135deg, #247CFF, #1A64CC);
-  color:#000;
+  color:#fff;
   padding:1rem 1.5rem;
   border-radius:6px;
   text-decoration:none;
@@ -174,7 +174,7 @@
   display:block;
 }
 .Navigation_mobileCtaButton__Netdi:hover {
-  color:#000;
+  color:#fff;
 }
 .Navigation_mobileAccordion__OMaMc {
 }

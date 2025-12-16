@@ -151,7 +151,7 @@
   display:inline-block;
   padding:1.25rem 3rem;
   background:linear-gradient(135deg, #247CFF, #1A64CC);
-  color:#000;
+  color:#fff;
   text-decoration:none;
   font-size:1.125rem;
   font-weight:700;
@@ -193,7 +193,7 @@
   align-items:center;
   gap:.75rem;
   background:linear-gradient(135deg, #247CFF, #1A64CC);
-  color:#000;
+  color:#fff;
   padding:.3rem 1rem;
   border-radius:50px;
   text-decoration:none;
@@ -313,7 +313,8 @@
 }
 .Hero_ctaSecondary__HYWmu {
   background:transparent;
-  color:#247CFF;
+  color:#fff;
+  border:2px solid #247CFF;
   padding:1.25rem 2.5rem;
   border-radius:8px;
   text-decoration:none;
@@ -1071,7 +1072,7 @@
 }
 .PersonaCards_cardLink__vdvOk {
   background:linear-gradient(135deg, #247CFF, #1A64CC);
-  color:#000;
+  color:#fff;
   padding:1rem 2rem;
   border-radius:8px;
   text-decoration:none;
