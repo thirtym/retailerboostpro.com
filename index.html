@@ -68,9 +68,10 @@
         .Hero_headline__ASVgO {
           font-size: 2rem !important;
         }
-        /* Make 2-column grids single column on mobile */
+        /* Make grids single column on mobile */
         .use-cases-grid,
-        .not-grid {
+        .not-grid,
+        .aligned-grid {
           grid-template-columns: 1fr !important;
         }
       }
@@ -193,7 +194,7 @@
             <p class="Hero_subheadline__omnUM">We fund the ad spend. You keep the client relationship.<br/>Commission only on incremental sales. <strong style="color:#33D0C4;">No sales = no charge.</strong></p>
 
             <div class="Hero_ctaGroup__BKron">
-              <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/sturrock/intro?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=247CFF'});return false;" class="Hero_ctaPrimary____c6c">Book a Call</a>
+              <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/sturrock/intro?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=247CFF'});return false;" class="Hero_ctaPrimary____c6c" style="color:#fff;">Book a Call</a>
             </div>
 
             <div style="margin-top:2rem;display:flex;flex-wrap:wrap;gap:2rem;justify-content:center;">
@@ -290,26 +291,32 @@
 
       <!-- Why This Works for Everyone -->
       <section style="padding:4rem 2rem;background:rgba(51,208,196,0.03);border-top:1px solid rgba(51,208,196,0.1);border-bottom:1px solid rgba(51,208,196,0.1);">
-        <div style="max-width:800px;margin:0 auto;text-align:center;">
-          <h2 style="font-size:2rem;font-weight:700;color:#fff;margin-bottom:2rem;">Completely Aligned Incentives</h2>
-          <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));gap:2rem;">
-            <div style="padding:1.5rem;">
-              <div style="font-size:2rem;margin-bottom:0.75rem;">🏢</div>
-              <p style="color:#fff;font-weight:600;margin-bottom:0.5rem;">Agency</p>
-              <p style="color:#aaa;font-size:0.95rem;margin:0;line-height:1.6;">Earns markup on every sale.<br/>Zero delivery work.<br/>No risk.</p>
+        <div style="max-width:900px;margin:0 auto;text-align:center;">
+          <h2 style="font-size:2rem;font-weight:700;color:#fff;margin-bottom:2.5rem;">Completely Aligned Incentives</h2>
+          <div class="aligned-grid" style="display:grid;grid-template-columns:repeat(3, 1fr);gap:1.5rem;">
+            <div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:2rem 1.5rem;">
+              <div style="font-size:2.5rem;margin-bottom:1rem;">🏢</div>
+              <p style="color:#fff;font-weight:700;font-size:1.1rem;margin-bottom:1rem;">Agency</p>
+              <p style="color:#33D0C4;font-size:0.9rem;margin:0 0 0.5rem;font-weight:500;">Markup on every sale</p>
+              <p style="color:#aaa;font-size:0.9rem;margin:0 0 0.5rem;">Zero delivery work</p>
+              <p style="color:#aaa;font-size:0.9rem;margin:0;">No risk</p>
             </div>
-            <div style="padding:1.5rem;">
-              <div style="font-size:2rem;margin-bottom:0.75rem;">🛍️</div>
-              <p style="color:#fff;font-weight:600;margin-bottom:0.5rem;">Client</p>
-              <p style="color:#aaa;font-size:0.95rem;margin:0;line-height:1.6;">Pays only for results.<br/>No upfront costs.<br/>Cancel anytime.</p>
+            <div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:2rem 1.5rem;">
+              <div style="font-size:2.5rem;margin-bottom:1rem;">🛍️</div>
+              <p style="color:#fff;font-weight:700;font-size:1.1rem;margin-bottom:1rem;">Client</p>
+              <p style="color:#33D0C4;font-size:0.9rem;margin:0 0 0.5rem;font-weight:500;">Pay only for results</p>
+              <p style="color:#aaa;font-size:0.9rem;margin:0 0 0.5rem;">No upfront costs</p>
+              <p style="color:#aaa;font-size:0.9rem;margin:0;">Cancel anytime</p>
             </div>
-            <div style="padding:1.5rem;">
-              <div style="font-size:2rem;margin-bottom:0.75rem;">📈</div>
-              <p style="color:#fff;font-weight:600;margin-bottom:0.5rem;">RetailerBoost</p>
-              <p style="color:#aaa;font-size:0.95rem;margin:0;line-height:1.6;">Earns when we generate sales.<br/>Funds all ad spend.<br/>Takes the risk.</p>
+            <div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:2rem 1.5rem;">
+              <div style="font-size:2.5rem;margin-bottom:1rem;">📈</div>
+              <p style="color:#fff;font-weight:700;font-size:1.1rem;margin-bottom:1rem;">RetailerBoost</p>
+              <p style="color:#33D0C4;font-size:0.9rem;margin:0 0 0.5rem;font-weight:500;">Earns on sales we generate</p>
+              <p style="color:#aaa;font-size:0.9rem;margin:0 0 0.5rem;">Funds all ad spend</p>
+              <p style="color:#aaa;font-size:0.9rem;margin:0;">Takes the risk</p>
             </div>
           </div>
-          <p style="color:#e5e5e5;font-size:1.1rem;margin-top:2rem;max-width:600px;margin-left:auto;margin-right:auto;">Everyone wins when sales happen. If we generate zero orders, nobody pays anything. That's alignment.</p>
+          <p style="color:#e5e5e5;font-size:1.1rem;margin-top:2.5rem;max-width:600px;margin-left:auto;margin-right:auto;">Everyone wins when sales happen. If we generate zero orders, nobody pays anything. That's alignment.</p>
         </div>
       </section>
 
