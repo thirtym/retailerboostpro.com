@@ -54,6 +54,8 @@ Typically:
 - "No sales = no charge"
 - "We target inventory your campaigns aren't reaching"
 - "100% incremental - we only target products Google is ignoring"
+- "You're in control - you decide which products we can target"
+- "You set the scope via categories or tags"
 - "It's additive, not competitive"
 - "You can white-label it or add your own markup"
 - "We're ad spend investors, not an agency"
