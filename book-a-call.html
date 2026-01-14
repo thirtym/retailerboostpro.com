@@ -136,8 +136,16 @@
     (function() {
       'use strict';
       
+      var retryCount = 0;
+      var maxRetries = 50; // 5 seconds max (50 * 100ms)
+      
       function initCalendly() {
         if (typeof Calendly === 'undefined') {
+          retryCount++;
+          if (retryCount >= maxRetries) {
+            console.error('Calendly failed to load after ' + (maxRetries * 100 / 1000) + ' seconds');
+            return;
+          }
           // Calendly not loaded yet, retry
           setTimeout(initCalendly, 100);
           return;
